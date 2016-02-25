@@ -39,7 +39,7 @@ namespace Minimod.ThreadVariable
     /// </code>
     /// </example>
     /// <typeparam name="T">The type of the values to store.</typeparam>
-    internal class ThreadVariable<T>
+    public class ThreadVariable<T>
     {
         /// <summary>
         /// Storing the default value for a struct, null for a class or a 
